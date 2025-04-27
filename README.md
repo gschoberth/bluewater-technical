@@ -19,8 +19,7 @@ Vue 3 (including Pinia): Web app portion and app store
 Rive: Animations including; title screen, kick / goal animations (includes outcome text) [Rive Website](https://rive.app/)
 
 ##### Rive Notes: This is a vector animation editor that I've recently been looking into for both personal and professional use. Because of it's ability
-to be implemented in the following; Unity, Unreal, JS & Web Frameworks. It allows for an included state machine for animations to be created, trigger from an external source (ex. Vue),
-or send trigger signals to the external source too. Also has a bone system similar to 3d modeling programs too.
+to be implemented in the following; Unity, Unreal, JS & Web Frameworks. It allows for an included state machine for animations to be created, trigger from an external source (ex. Vue), or send trigger signals to the external source too. Also has a bone system similar to 3d modeling programs too.
 
 ## Additional Features (Implemented)
 
