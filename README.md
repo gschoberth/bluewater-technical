@@ -15,6 +15,7 @@ The app is deployed via Github Pages here: https://gschoberth.github.io/bluewate
 
 ## Technology Used For Build
 Vue 3 (including Pinia): Web app portion and app store 
+
 Rive: Animations including; title screen, kick / goal animations (includes outcome text) [Rive Website](https://rive.app/)
 
 ##### Rive Notes: This is a vector animation editor that I've recently been looking into for both personal and professional use. Because of it's ability
