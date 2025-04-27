@@ -59,7 +59,7 @@ like arcade buttons to stand up to the possible abuse, possibly larger buttons t
 I would probably suggest possibly four buttons, either in a row, or in a diamond layout similar to game controllers. With how the app is built, this setup could probably be run on a raspberry pi to both handle, inputs and display.
 
 Button picture for reference.
- [Arcade button](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.walmart.com%2Fc%2Fkp%2Farcade-button&psig=AOvVaw3W4D9idPBXBdJfpXiWE9qq&ust=1745876220156000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCKDmlvGV-YwDFQAAAAAdAAAAABAd)
+ [Arcade button](https://i5.walmartimages.com/seo/Hemoton-Arcade-Game-Button-Prop-Game-Machine-Button-Push-Button-for-Competition-Game_7acec4c9-67e1-4c3d-ab05-f9e82bf58603.92cb236b06d227f7d71e437cb0cb6d5f.jpeg?odnHeight=2000&odnWidth=2000&odnBg=FFFFFF)
 
 #### Responsive Layout
 For a more finalized product I would implement a more responsive design so that the app could run on the targeted devices for the planned event.
