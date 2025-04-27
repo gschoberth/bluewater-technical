@@ -48,7 +48,8 @@ Examples:
 - Leaderboard reset (see below suggested feature)
 
 #### Simplified Instructions For User On Start
-For this, I thought a simple graphical (3 step ?) representation of what the user has to do. Or a simple pop up of text that says something like "Hit the 'Kick' button as soon it appears to score."
+For this, I thought a simple graphical (2-3 steps?) representation of what the user has to do. Or a simple pop up of text that says something like "Hit the 'Kick' button as soon it appears to score." This would disappear after a few seconds, or 
+a continue button could be included.
 
 #### Get Ready Popup 
 This would simply be text appears on the screen after hitting the start, and before the GO! text appears. Simply letting the user know that the interactive portion has started.
@@ -62,7 +63,7 @@ Button picture for reference.
  [Arcade button](https://i5.walmartimages.com/seo/Hemoton-Arcade-Game-Button-Prop-Game-Machine-Button-Push-Button-for-Competition-Game_7acec4c9-67e1-4c3d-ab05-f9e82bf58603.92cb236b06d227f7d71e437cb0cb6d5f.jpeg?odnHeight=2000&odnWidth=2000&odnBg=FFFFFF)
 
 #### Responsive Layout
-For a more finalized product I would implement a more responsive design so that the app could run on the targeted devices for the planned event.
+For a more finalized product I would implement a more responsive design so that the app could run on the targeted devices for the planned event fullscreen.
 
 #### 3 Shots Style Game
 The idea for this, would be that the user gets three shots all with different reaction times. I would probably shorten the reaction time window down a bit to keep the length of each user's time with it reasonably quick. With either a 
