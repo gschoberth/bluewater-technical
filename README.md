@@ -1,5 +1,8 @@
 # Experential Engineer Technical Project
-This is the technical project for the Experential Engineer rol at Bluewater Technologies built by Greg Schoberth
+This is the technical project for the Experential Engineer rol at Bluewater Technologies built by Greg Schoberth. 
+
+### Notes
+For best experience this was designed for lap / desktop screens, although it (should) also work on mobile and tablet when used in portrait mode.
 
 ### Hosting
 The app is deployed via Github Pages here: https://gschoberth.github.io/bluewater-technical/
@@ -14,7 +17,7 @@ The app is deployed via Github Pages here: https://gschoberth.github.io/bluewate
 > npm run build
 
 ## Technology Used For Build
-Vue 3 (including Pinia): Web app portion and app store 
+Vue 3 (including Pinia): Web app portion, displaying visuals, store and gameplay logic. 
 
 Rive: Animations including; title screen, kick / goal animations (includes outcome text) [Rive Website](https://rive.app/)
 
@@ -30,7 +33,9 @@ set for 20 seconds before resetting the app and returning to the intro screen.
 #### Decoupled Visuals and Gameplay Logic
 The logic for the underlying logic of the app is implemented in a Pinia store, allowing for expandability or reuse by creating new gamemplay visuals. This can be achieved 
 through minimal modification of the game view component and simply passing in a new file path (rive file atm) for goal visuals. 
-(Ex: Football field goal kick, hockey penalty shot. Baseball pitch [Baseball is a bit of a different one compared to the other three, might work best with the suggested 3 shot gameplay suggested below as a 'Strike Out' game)   
+(Ex: Football field goal kick, hockey penalty shot. Baseball pitch [Baseball is a bit of a different one compared to the other three, might work best with the suggested 3 shot gameplay suggested below as a 'Strike Out' game).  
+
+In place of the Rive animations, a component could be developed quickly using existing logic to use a different visuals format; pre-recorded / rendered videos instead for all gameplay interactions (idle, kick animations, goal outcomes). 
 
 ## Additional Features (Not Implemented, Suggested)
 
@@ -64,6 +69,8 @@ Button picture for reference.
 
 #### Responsive Layout
 For a more finalized product I would implement a more responsive design so that the app could run on the targeted devices for the planned event fullscreen.
+
+#### Consistent Visual Styling / Branding Theme
 
 #### 3 Shots Style Game
 The idea for this, would be that the user gets three shots all with different reaction times. I would probably shorten the reaction time window down a bit to keep the length of each user's time with it reasonably quick. With either a 
