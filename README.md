@@ -46,20 +46,25 @@ through minimal modification of the game view component and simply passing in a 
 
 In place of the Rive animations, a component could be developed quickly using existing logic to use a different visuals format; pre-recorded / rendered videos instead for all gameplay interactions (idle, kick animations, goal outcomes). 
 
+#### BA / Technician Hidden Panel
+Double click top left corner of featured or fullblown demo to access BA menu. Allows for adjustment of reset timeout and max range in seconds for gameplay action button.
+Featured demo also allows for switching of additional scenes for football field goal kick game using the same logic.
+
+Additional Examples (Not implemented): 
+- Leaderboard reset (see below suggested feature)
+
+
+#### 3 Shots Style Game
+The idea for this, would be that the user gets three shots all with different reaction times. I would probably shorten the reaction time window down a bit to keep the length of each user's time with it reasonably quick. Has a score for attempted shoots display at the end of each round.
+
+Additional Examples (Not Implemented):
+- Showing an averaged reaction time for the three shots.
+
 ## Additional Features (Not Implemented, Suggested)
 
 #### Randomized Position Of Action Button
 Randomizing the position of the action button within a specific region. Setting the buttons position randomly might lessen the chance of someone hitting the button almost immediately as is currently the case
 with the default centered position.
-
-#### BA / Technician Hidden Panel
-Typically for interactions such as this, I would recommend implementing a hidden button on the screen itself. Typically double tapping a corner furthest from where a user interaction might occur, 
-or on the brand logo if it's included. For this interaction, I would include; 
-
-Examples: 
-- The ability to adjust the range for the reaction timer (both min / max of range)
-- Adjustable Timeout length
-- Leaderboard reset (see below suggested feature)
 
 #### Simplified Instructions For User On Start
 For this, I thought a simple graphical (2-3 steps?) representation of what the user has to do. Or a simple pop up of text that says something like "Hit the 'Kick' button as soon it appears to score." This would disappear after a few seconds, or 
@@ -80,10 +85,6 @@ Button picture for reference.
 For a more finalized product I would implement a more responsive design so that the app could run on the targeted devices for the planned event fullscreen.
 
 #### Consistent Visual Styling / Branding Theme
-
-#### 3 Shots Style Game
-The idea for this, would be that the user gets three shots all with different reaction times. I would probably shorten the reaction time window down a bit to keep the length of each user's time with it reasonably quick. With either a 
-simplified score display at the end, like the the stars Angry Birds has at the end of levels (I think?). And / or showing an averaged reaction time for the three shots.
 
 #### User Input Form 
 Depending on where the interaction was being used, if it was part of a booth for a conference or event where emails could be gathered for marketing purposes. This could be stored in a simple database behind the scenes to be extracted after the event is done.
