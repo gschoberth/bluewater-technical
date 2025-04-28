@@ -5,7 +5,7 @@ This is the technical project for the Experential Engineer rol at Bluewater Tech
 For best experience this was designed for lap / desktop screens, although it (should) also work on mobile and tablet when used in portrait mode.
 
 ### Hosting
-The app is deployed via Github Pages here: https://gschoberth.github.io/bluewater-technical/
+The app is deployed via Github Pages here: [Demo Site](https://gschoberth.github.io/bwt-hosted/)
 
 ### Project Setup
 > npm install
