@@ -18,20 +18,20 @@ The app is deployed via Github Pages here: [Demo Site](https://gschoberth.github
 
 ## Technology Used For Build / Notes
 Vue 3 (including Pinia): Web app portion, displaying visuals, store and gameplay logic. 
-Important folders within codebase:
 
+Important folders within codebase:
 /pubilc (used assets)
 /src/stores (gameplay logic and interaction timeout)
 /src/views (visuals components)
 /src/components (additional visuals components)
 
-Rive: Animations including; title screen, kick / goal animations (includes outcome text) [Rive Website](https://rive.app/)
+Rive: Animations including; title screen, kick / goal animations, scoreboard for expanded demo. (includes outcome text) [Rive Website](https://rive.app/)
 
 ##### Rive Notes: This is a vector animation editor that I've recently been looking into for both personal and professional use. Because of it's ability
 to be implemented in the following; Unity, Unreal, JS & Web Frameworks. It allows for an included state machine for animations to be created, trigger from an external source (ex. Vue), or send trigger signals to the external source too. Also has a bone system similar to 3d modeling programs too.
 
 ##### Reaction Time Calculation
-The current build of the project uses a simple cubic bezier curve for the over / under value. The y position at the users reaction time (x-axis) is used as the minimum value to exceed. The users value used for comparison is a simple randomized value within the same range (0 < x <=1). 
+The current build of the project uses a simple cubic bezier curve for the over / under value. The y position at the users reaction time (x-axis) is used as the minimum value to exceed. The users value used for comparison is a simple randomized value within the same range (0 < x <= 1). 
 
 ## Additional Features (Implemented)
 
@@ -46,13 +46,12 @@ through minimal modification of the game view component and simply passing in a 
 
 In place of the Rive animations, a component could be developed quickly using existing logic to use a different visuals format; pre-recorded / rendered videos instead for all gameplay interactions (idle, kick animations, goal outcomes). 
 
-#### BA / Technician Hidden Panel
+#### Brand Ambassador / Technician Hidden Panel
 Double click top left corner of featured or fullblown demo to access BA menu. Allows for adjustment of reset timeout and max range in seconds for gameplay action button.
 Featured demo also allows for switching of additional scenes for football field goal kick game using the same logic.
 
 Additional Examples (Not implemented): 
 - Leaderboard reset (see below suggested feature)
-
 
 #### 3 Shots Style Game
 The idea for this, would be that the user gets three shots all with different reaction times. I would probably shorten the reaction time window down a bit to keep the length of each user's time with it reasonably quick. Has a score for attempted shoots display at the end of each round.
